@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+    text-align: center;
+    background-color: #881337;
+}
+
+h3 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    text-align: center;
+    color: white;
+}
+
+.score {
+    background: #0a0001;
+    font-size: 90px;
+    color: #F94F6D;
+    width: 150px;
+    height: 120px;
+    margin: 20px;
+    font-family: monospace;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+button {
+    background: none;
+    color: white;
+    border: solid white 1px;
+    border-radius: 5px;
+    font-size: 30px;
+    font-family: monospace;
+}

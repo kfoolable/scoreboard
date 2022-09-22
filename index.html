@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="column">
+            <h3>HOME</h3>
+            <h2 class="score" id="home-score">0</h2>
+            <div>
+                <button onclick="btnh1()">+1</button>
+                <button onclick="btnh2()">+2</button>
+                <button onclick="btnh3()">+3</button>
+                <button onclick="reseth()">R</button>
+            </div>
+        </div>
+        <div class="column">
+            <h3>GUEST</h3>
+            <h2 class="score" id="guest-score">0</h2>
+            <div>
+                <button onclick="btng1()">+1</button>
+                <button onclick="btng2()">+2</button>
+                <button onclick="btng3()">+3</button>
+                <button onclick="resetg()">R</button>
+            </div>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
